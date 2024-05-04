@@ -8,4 +8,7 @@ export class DogService {
     public greet(): string {
         return "My name is Rex"
     }
+    public modify(): string {
+        return "Successfully modified"
+    }
 }
