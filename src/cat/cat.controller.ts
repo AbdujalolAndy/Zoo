@@ -10,7 +10,7 @@ export class CatController {
     public getHello(){
         return this.catService.getHello()
     }
-    @Get("introduction")
+    @Get("greet")
     public getGreet(){
         return this.catService.greet()
     }
